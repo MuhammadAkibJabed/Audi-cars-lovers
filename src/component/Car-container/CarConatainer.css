@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Fragment+Mono&family=Nanum+Gothic:wght@700;800&family=Roboto+Mono:wght@100&display=swap');
+.single-car-container{
+    background-color: #fff;
+    border: 1px solid gray;
+    padding: 20px;
+    margin: 15px;
+    font-family: 'Fragment Mono', monospace;
+    box-shadow: 1px gray;
+    
+}
+.car-card{
+    
+    text-align: center;
+    
+}
+.car-title{
+    font-size: 10px;
+}
+.car-img{
+    text-align: center;
+    height: 250px;
+}
+.img{
+    height: 180px;
+}
+.car-price{
+    text-align: center;
+}
+.power-acceleration-div{
+    display: flex;
+   justify-content: center;
+}
+.power{
+    text-align: center;
+    
+    border-right: 1px solid black;
+    padding-right: 25px;
+}
+.acceleration{
+    text-align: center;
+    padding-left: 25px;
+}

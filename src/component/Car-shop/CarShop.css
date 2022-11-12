@@ -1,0 +1,10 @@
+.shop-container{
+    margin: 30px;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+.car-container{
+    background-color: #f2f2f2;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
