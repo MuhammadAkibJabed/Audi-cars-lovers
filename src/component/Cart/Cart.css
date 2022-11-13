@@ -1,0 +1,19 @@
+.cart
+{
+     margin-left: 5px;
+    
+}
+.cart-heading{
+    border-bottom: 1px solid lightslategray;
+    text-align: center;
+}
+.car-name-list{
+    
+    
+        padding: 10px;
+        background-color: #a19e9e;
+        border-radius: 5px;
+        color: black;
+        
+    
+}

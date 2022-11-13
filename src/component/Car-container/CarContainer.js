@@ -1,9 +1,12 @@
 import React from 'react';
 import './CarConatainer.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faShoppingCart } from '@fortawesome/free-solid-svg-icons'
 
 const CarContainer = (props) => {
     const{name,price,engine,horsepower,Acceleration,img}=props.car;
-    console.log(props.car)
+    const element = <FontAwesomeIcon icon={faShoppingCart} />
+   //  console.log(props)
     return (
         <div>
            <div className='row'>
@@ -35,7 +38,8 @@ const CarContainer = (props) => {
           <p>{engine}</p>
        </div>
        <div className="car-button">
-          <button>ADD TO CART</button>
+          <button className='button' onClick={()=>props.handleAddToCart(props.car)}
+         >{element} ADD TO CART</button>
        </div>
        <div className="icon">
  
